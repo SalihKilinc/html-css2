@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="/Contact/Register">
+    <p> Name <input type="text" name="ad" placeholder="please enter your name" required>   <!--required doldurulmai zorunlu alan ifade eder-->
+    </p>
+    <p>
+     Lastname <input type="text" name ="soyad" placeholder="Please your value" required>
+    </p>
+    <p>
+        Eposta <input type="email" name ="email" required >
+    </p>
+    <p>
+        Don't forget me <input type="checkbox" name="unutma beni" required>
+    </p>
+    <p>
+        Male <input type="radio" name ="cinsiyet" required>
+        Girl <input type="radio" name ="cinsiyet" required>
+
+    </p>
+    <p>  <!-- radio butona name value verilmek gerekli secim icin  -->
+        Habbys <br>
+        Cinema <input type="checkbox" name ="hobi" required>
+        Spor <input type="checkbox" name ="hobi" required>
+        Reading <input type="checkbox" name ="hobi" required>
+    </p>
+    <p>
+        <input type="color" name="color" value="#aa0000">
+        <input type="submit">
+    </p>
+    <p>
+        <input type="date"> <br> <br>
+        <input type="month"><br> <br>
+        <input type="time">
+        
+    </p>
+    <p>
+        <input type="number" name ="quantity" min="5" max="66"><br> <br>
+        <input type="number" name ="quantity" min="5" max="66" step="4"> <!--Sayilari 4 arttirarark gittik -->
+
+        <input type="submit"> 
+    </p>
+    <p>
+        <input type="range" name="point" min="0" max="59">
+        <input type="submit">
+    </p>
+<p>
+    <select name="City" required> <!-- sehirleri secenek tarzinda gosterir -->
+<option >Adana</option>
+<option >Hatay</option>
+<option >Sion</option>
+    </select>
+</p>
+<p>
+    <select multiple name="Citys" required>   <!-- sehirleri asgi dogru kaydirmali gosterir -->
+<option >Adana</option>
+<option >Hatay</option>
+<option >Sion</option>
+<option >Adana</option>
+<option >Hatay</option>
+<option >Sion</option>
+<option >Adana</option>
+<option >Hatay</option>
+<option >Sion</option>
+    </select>
+</p>
+<input style= "background-color:rgb(75, 197, 85) " type="button" value="Submit" >
+<input type="reset" >
+
+
+</form>
+</body>
+</html>
