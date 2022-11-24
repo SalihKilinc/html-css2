@@ -1,0 +1,75 @@
+
+p::first-line{  /* ilk satirdaki kelime aralarina bosluk verdik */
+    font-weight: bold; color:rgb(165, 67, 42);
+    word-spacing: 2px; letter-spacing: 1px;
+}
+p.about::first-line{ /* ustte verdigimiz rengi ezdik */
+    color: blue;
+}
+
+p::first-letter{  /* bas harflerini buyuttuk */
+    font-size: 25px;
+}
+p::after{ /* paragraf sonuna ekleme yaptik */
+    content: "😄";
+    display: block;
+    background-color: blueviolet;
+}
+p::before{ /* basa ekleme yaptik */
+    content: "🥰";
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ul li:first-child{
+    background-color: rgb(158, 38, 22);
+}
+
+ul li:last-child{
+    background-color: rgb(92, 189, 68);
+}
+
+ul li:nth-of-type(even){  /* cift sayili olan yerlere islem yaptik */
+    border: 2px solid;
+    color: brown;
+}
+ul li:nth-of-type(odd){ /* tek sayili olan yerlere islem yaptik */
+    border: 2px solid;
+    color: rgb(182, 218, 190);
+}
+
+a{
+    padding: 5px 8px 9px 12px;
+    text-decoration: none;
+    display: block;
+    border: 2px solid red;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+a:link{
+    color:coral;
+}
+a:visited{
+    color:yellow;
+}
+a:hover{
+    color: rgb(58, 39, 39);
+    background-color: cornflowerblue;
+}
+a:active{
+    color:rgb(77, 86, 95);
+    background-color: blueviolet;
+}
+
+div span{
+    color:blueviolet;
+}
+div:hover span{
+    display: block;
+    color: rgb(115, 255, 0);
+    background-color: black;
+}
