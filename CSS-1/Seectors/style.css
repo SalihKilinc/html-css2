@@ -1,0 +1,62 @@
+
+/*
+1- (*)  => tumu etkiler
+
+2- (p)  => tum p etiketleri
+
+3- (div p) => div icindeki tum p etiketleri
+
+4- (div,p)  => tum div ve p etiketleri
+
+5- (div > p ) => ust etiketi div olan butun p ler
+
+6- (p ~ div) => p ile ayni seviyede olan tum divler
+
+7- (p + div) => p etiketinden sonra gelen ilk divler
+
+
+ */
+p+div{
+    border:1px solid red;
+}
+/*
+
+
+
+{
+    border:1px solid blue;
+}
+
+
+p{
+    border: 1px solid blue;
+}
+
+div p{
+    background-color: aqua;
+}
+
+.container div{
+    
+    background-color: rgb(102, 102, 155);
+    border: 5px solid yellow;
+ }
+ 
+.container div.box{
+    
+    background-color: rgb(102, 102, 155);
+    border: 5px solid yellow;
+ }
+div.box,p{
+
+    border: 1px solid blue;
+}
+
+div>p{
+    border: 1px solid red;
+}
+
+p~div{
+    background-color: blue;
+}
+*/
