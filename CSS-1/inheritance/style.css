@@ -54,3 +54,22 @@ input[type="text"] , input[type="password"]{
     margin: 8px 0;
     box-sizing: border-box;
 }
+input[type="submit"]{
+    width: 100%;
+    background-color: green;
+    color: #f2f2f2;
+    padding: 12px 18px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(38, 65, 65);
+}
+input[type="text" ]:focus{
+    background-color: rgb(224, 233, 216);
+}
+input[type="password" ]:focus{
+    background-color: rgb(118, 153, 85);
+}
