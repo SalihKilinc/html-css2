@@ -1,0 +1,37 @@
+#container{
+    width: 1140px;
+    background-color: blueviolet;
+    
+}
+#blog-post-container{
+    width: 75%;
+    background-color: aqua;
+    float: left ;
+}
+#other-posts{
+    width: 25%;
+    background-color: chartreuse;
+   
+    display: inline-block;
+   
+    margin-left: 550px;
+    
+    
+    
+}
+#author-box img{
+   
+    display: flex;
+    margin-right: 75%;
+    margin-bottom: 250px;
+    margin-top: -125px;
+    width: 275px;
+    float: left;
+
+    
+}
+.author-text{
+    display: inline-block;
+    margin-bottom: 1px;
+    font-size: 50px;
+}
