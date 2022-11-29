@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 120px;
+            height: 120px;
+        }
+
+        .mbox {
+            width: 30px;
+            height: 35px;
+            background-color: darkblue;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+
+        #first {
+            background-color: blueviolet;
+            position: sticky;
+            width: 100%;
+            top: 25px;
+        }
+
+        #second {
+            background-color: aqua;
+            position: relative;
+            /*mbox classinin parenti oldugu icin relative aldi ve kendi icinde hareket ettirdi*/
+            /*position: relative;
+            top: 50px;
+            left: 30px;*/
+            /*  position: absolute;
+            border: 5px solid green;
+            top: 50px;
+            left: 50px;*/
+
+        }
+
+        #third {
+            background-color: chartreuse;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, minima, eaque asperiores fugiat explicabo
+        tenetur libero nemo animi, hic excepturi odio obcaecati voluptatem at nobis. Sit nobis, sint expedita
+        dignissimos optio enim asperiores ad illum dolorem cupiditate quasi tempora facilis ex deserunt nam ratione odio
+        impedit consectetur deleniti est. Maxime delectus, fugit aliquid esse numquam ab eligendi quia ipsa porro id!
+        Aperiam molestiae, sequi voluptatum ad expedita perferendis ea pariatur recusandae corrupti maxime! Ab expedita
+        odit maiores mollitia minus sed quo doloribus harum, placeat sit quos labore sapiente eveniet libero perferendis
+        quia voluptates dolor delectus, temporibus tempore non magnam animi earum? Dolore nobis inventore eos quam
+        laborum culpa aliquid, architecto voluptatem atque. Architecto id magni iste nemo accusantium modi distinctio
+        saepe eligendi sunt. Sed modi, voluptate error, quaerat, aliquid assumenda similique laudantium voluptatum
+        maxime nihil repellendus nisi. Perferendis doloremque culpa sequi nesciunt? Explicabo consectetur assumenda,
+        praesentium perferendis repellat alias ullam.</p>
+    <div class="box" id="first">kutu 1</div>
+    <div class="box" id="second">
+        <div class="mbox"></div>
+    </div>
+    <div class="box" id="third">kutu 3</div>
+    <div style="height: 3000px;"></div>
+</body>
+
+</html>
